@@ -1,0 +1,25 @@
+{
+  "name": "hello-world",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nuxi dev --host",
+    "build": "nuxi generate",
+    "lint": "eslint .",
+    "fix": "eslint . --fix"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "devDependencies": {
+    "eslint": "8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-vue": "^9.27.0",
+    "nuxt": "^3.11.2",
+    "postcss": "^8.4.40",
+    "postcss-combine-media-query": "^1.0.1",
+    "postcss-preset-env": "^9.6.0",
+    "sass": "^1.77.8"
+  }
+}
