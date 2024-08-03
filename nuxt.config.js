@@ -1,9 +1,8 @@
-/* eslint-disable no-undef */
 import path from 'path';
 
 const setAlias = (localPath) => path.resolve(__dirname, localPath);
 
-export default defineNuxtConfig({
+export default {
   devtools: { enabled: false },
   devServer: { port: '8080' },
   compatibilityDate: '2024-08-03',
@@ -30,4 +29,4 @@ export default defineNuxtConfig({
     '@images': setAlias('./src/assets/images'),
     '@styles': setAlias('./src/styles'),
   },
-});
+};
