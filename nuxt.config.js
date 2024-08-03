@@ -9,7 +9,7 @@ export default {
 
   srcDir: './src',
   app: {
-    baseURL: '/app',
+    baseURL: '/new-nuxt_vite',
     lang: 'ru',
     head: {
       title: 'Шаблон',
