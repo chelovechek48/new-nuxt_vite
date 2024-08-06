@@ -9,13 +9,13 @@ export default {
 
   srcDir: './src',
   app: {
-    baseURL: '/new-nuxt_vite',
-    lang: 'ru',
+    baseURL: '/new-nuxt_vite',d
     head: {
       title: 'Шаблон',
       charset: 'UTF-8',
       viewport: 'width=device-width, initial-scale=1.0',
     },
+    htmlAttrs: { lang: 'ru' },
   },
 
   postcss: {
