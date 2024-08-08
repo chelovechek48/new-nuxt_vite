@@ -1,6 +1,5 @@
 <template>
   <main>
-    <!-- <NuxtLayout name="page-wrapper" /> -->
-    <TestImage />
+    <NuxtLayout name="page-wrapper" />
   </main>
 </template>
