@@ -5,7 +5,7 @@ const setAlias = (localPath) => path.resolve(__dirname, localPath);
 export default {
   devtools: { enabled: false },
   devServer: { port: '8080' },
-  compatibilityDate: '2024-08-03',
+  compatibilityDate: '2024-08-08',
 
   srcDir: './src',
   app: {
@@ -14,8 +14,8 @@ export default {
       title: 'Шаблон',
       charset: 'UTF-8',
       viewport: 'width=device-width, initial-scale=1.0',
+      htmlAttrs: { lang: 'ru' },
     },
-    htmlAttrs: { lang: 'ru' },
   },
 
   postcss: {
