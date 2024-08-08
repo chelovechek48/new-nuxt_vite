@@ -18,7 +18,11 @@ export default {
     },
   },
 
-  css: ['@styles/_index.scss'],
+  modules: ['nuxt-vitalizer'],
+  vitalizer: {
+    disableStylesheets: 'entry',
+  },
+
   postcss: {
     plugins: {
       'postcss-preset-env': {},
