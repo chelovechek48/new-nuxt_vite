@@ -18,6 +18,7 @@ export default {
     },
   },
 
+  css: ['@styles/_index.scss'],
   postcss: {
     plugins: {
       'postcss-preset-env': {},
