@@ -1,5 +1,9 @@
 <template>
   <main>
-    <NuxtLayout name="page-wrapper" />
+    <TestImage />
   </main>
 </template>
+
+<style lang="scss">
+@import '@styles';
+</style>
