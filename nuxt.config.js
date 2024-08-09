@@ -23,9 +23,10 @@ export default {
     disableStylesheets: 'entry',
   },
 
-  features: {
-    noScripts: true,
-  },
+  // Если JS не используется
+  // features: {
+  //   noScripts: true,
+  // },
 
   postcss: {
     plugins: {
